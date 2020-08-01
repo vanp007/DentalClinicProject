@@ -1,0 +1,54 @@
+.login-logo{
+	margin-top: 15%;
+}
+
+.input-color{
+	color: white;
+}
+
+#table_medicals
+{
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+	font-size: 13px;
+	
+	width: 50%;
+	height:100%;
+	text-align: left;
+	border-collapse: collapse;
+	position:absolute;
+	z-index:-1;
+	box-shadow:2px 2px 5px;
+	opacity:;
+	
+}
+
+#table_medicals th
+{
+	padding: 8px;
+	font-weight: bold;
+	font-size: 13px;
+	color: #039;
+	background: #b9c9fe;
+}
+#table_medicals td
+{
+	padding: 8px;
+	background: #e8edff;
+	border-top: 1px solid #fff;
+	color: black;
+}
+
+#table_medicals tbody tr:hover td
+{
+	background: #d0dafd;
+	color:red;
+	
+}
+
+#table_medicals tbody tr:hover #tableLink
+{
+	background: #d0dafd;
+	color:red;
+	
+}
+
